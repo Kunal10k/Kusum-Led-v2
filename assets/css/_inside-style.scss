@@ -1,0 +1,246 @@
+.about_us {
+    @include p-tb();
+    text-align: center;
+
+
+    .image_marque {
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        position: relative;
+
+        .marquee-track {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll-left 20s linear infinite;
+        }
+
+        .img-box {
+            display: inline-block;
+            margin-right: 30px;
+
+            img {
+                // height: 200px;
+                width: 100%;
+                max-width: 800px;
+                width: auto;
+                border-radius: 12px;
+                display: block;
+            }
+        }
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-50%); // only works if total content is 2x the visible width
+        }
+    }
+
+
+    .container {
+
+
+        .content {
+            .subtitle {
+                @include subheading();
+
+            }
+
+            h2 {
+                @include headline(2rem);
+                margin-top: 0.5rem
+            }
+
+
+
+        }
+
+    }
+}
+
+
+.our-story {
+    @include p-tb();
+
+    .story-container {
+        display: flex;
+
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        gap: 40px;
+        flex-wrap: wrap;
+
+        .story-content {
+            flex: 1;
+            min-width: 300px;
+
+            .label {
+                @include subheading();
+                margin-bottom: 0.5rem
+            }
+
+            h2 {
+                @include headline(1rem);
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+
+                color: c.$accent;
+            }
+
+
+        }
+
+        .story-image {
+            flex: 1;
+            min-width: 300px;
+
+            img {
+                width: 100%;
+                border-radius: 12px;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+
+.team-section {
+    padding: 60px 20px;
+    background: #fff;
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .section-header {
+
+        margin-bottom: 40px;
+
+        .label {
+            @include subheading();
+            margin-bottom: 0.3rem
+        }
+
+        h2 {
+            @include headline(1rem);
+
+        }
+
+        .view-all {
+            background: transparent;
+            border: 1px solid #000;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            text-decoration: none;
+            color: c.$defalut-text-color-headline;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+
+    .team-card {
+
+
+        .image-wrapper {
+            overflow: hidden;
+            border-radius: 16px;
+            transition: transform 0.4s ease;
+
+            img {
+                width: 100%;
+                height: auto;
+                transition: transform 0.4s ease;
+
+
+            }
+
+
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .deatils {
+
+
+                h3 {
+                    font-size: 23px;
+                    font-weight: 700;
+                    margin: 15px 0 5px;
+                    color: c.$defalut-text-color-headline;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: c.$accent;
+                    margin: 0 0 10px;
+                }
+            }
+
+            .socials {
+                display: flex;
+
+                gap: 10px;
+
+                a {
+                    display: inline-block;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background: #000;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 14px;
+                    transition: background 0.3s ease;
+                    text-decoration: none;
+
+                    &:hover {
+                        background: #444;
+                    }
+                }
+            }
+
+
+        }
+
+        // Hover Effects
+        &.left:hover .image-wrapper img {
+            transform: scale(1.1) translateX(-10px);
+        }
+
+        &.center:hover .image-wrapper img {
+            transform: scale(1.1);
+        }
+
+        &.right:hover .image-wrapper img {
+            transform: scale(1.1) translateX(10px);
+        }
+
+    }
+}
