@@ -28,7 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
             innerText: target,
             duration: duration,
             ease: 'power1.out',
-            snap: { innerText: 1 },
+            snap: {
+                innerText: 1
+            },
             onUpdate: function () {
                 counter.innerText = Math.ceil(counter.innerText);
             }
@@ -274,68 +276,77 @@ gsap.from('.zoom-img', {
 
 
 
- // Animate .animate-text-1: from bottom
-  new SplitType('.animate-text-1', { types: 'lines', tagName: 'span' });
-  gsap.from('.animate-text-1 .line', {
+// Animate .animate-text-1: from bottom
+new SplitType('.animate-text-1', {
+    types: 'lines',
+    tagName: 'span'
+});
+gsap.from('.animate-text-1 .line', {
     scrollTrigger: {
-      trigger: '.animate-text-1',
-      start: 'top 80%',
+        trigger: '.animate-text-1',
+        start: 'top 80%',
     },
     y: '100%',
     opacity: 0,
     duration: 0.6,
     ease: 'power4.out',
     stagger: 0.1,
-  });
+});
 
-  // Animate .animate-text-2: from left
-  new SplitType('.animate-text-2', { types: 'lines', tagName: 'span' });
-  gsap.from('.animate-text-2 .line', {
+// Animate .animate-text-2: from left
+new SplitType('.animate-text-2', {
+    types: 'lines',
+    tagName: 'span'
+});
+gsap.from('.animate-text-2 .line', {
     scrollTrigger: {
-      trigger: '.animate-text-2',
-      start: 'top 85%',
+        trigger: '.animate-text-2',
+        start: 'top 85%',
     },
     x: '-100%',
     opacity: 0,
     duration: 0.7,
     ease: 'power2.out',
     stagger: 0.1,
-  });
+});
 
-  // Animate .animate-text-3: fade only
-  new SplitType('.animate-text-3', { types: 'lines', tagName: 'span' });
-  gsap.from('.animate-text-3 .line', {
+// Animate .animate-text-3: fade only
+new SplitType('.animate-text-3', {
+    types: 'lines',
+    tagName: 'span'
+});
+gsap.from('.animate-text-3 .line', {
     scrollTrigger: {
-      trigger: '.animate-text-3',
-      start: 'top 90%',
+        trigger: '.animate-text-3',
+        start: 'top 90%',
     },
     opacity: 0,
     duration: 1,
     ease: 'power1.out',
     stagger: 0.15,
-  });
+});
 
 
 
-  // test animated 
+// test animated 
 
-  document.addEventListener("DOMContentLoaded", () => {
-  let typeSplit = new SplitType('.text-animate', {
-    types: 'lines, words, chars',
-    tagName: 'span'
-  });
+document.addEventListener("DOMContentLoaded", () => {
+    let typeSplit = new SplitType('.text-animate', {
+        types: 'lines, words, chars',
+        tagName: 'span'
+    });
 
-  gsap.from('.text-animate .word', {
-    opacity: 0.3,
-    duration: 0.5,
-    ease: 'power3.inOut',
-    stagger: 0.1,
-    scrollTrigger: {
-      trigger: '.text-animate',
-      start: 'top center',
-      scrub: true
-    }
-  });
+    gsap.from('.text-animate .word', {
+        opacity: 0.3,
+        duration: 0.5,
+        ease: 'power3.inOut',
+        stagger: 0.1,
+        scrollTrigger: {
+            trigger: '.text-animate',
+            start: 'top center',
+            scrub: true
+        }
+    });
 });
 
 // our product 
@@ -348,10 +359,10 @@ $(document).ready(function () {
         loop: true,
         nav: true,
         dots: true,
-        autoplay: true,              // Enable autoplay
-        autoplayTimeout: 3000,       // 3 seconds between slides
-        autoplayHoverPause: true,    // Pause on hover
-        smartSpeed: 600,             // Smooth transition speed (ms)
+        autoplay: true, // Enable autoplay
+        autoplayTimeout: 3000, // 3 seconds between slides
+        autoplayHoverPause: true, // Pause on hover
+        smartSpeed: 600, // Smooth transition speed (ms)
         navText: [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
@@ -369,6 +380,7 @@ $(document).ready(function () {
         }
     });
 });
+
 
 
 

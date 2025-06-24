@@ -171,6 +171,8 @@
 body {
 
     font-size: 1rem;
+    font-family: f.$font-urbanist;
+    font-weight: f.$urbanist-regular;
 
 
     @include mymedia(2000px) {
@@ -366,4 +368,3 @@ $gradient: linear-gradient(135deg, #4a90e2, #007aff);
         }
     }
 }
-

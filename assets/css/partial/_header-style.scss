@@ -39,7 +39,18 @@
 
 
 .navbar {
-    border-bottom: 1px solid #0000003a;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.6); // translucent white
+    backdrop-filter: blur(12px); // blur glass effect
+    -webkit-backdrop-filter: blur(12px); // Safari support
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // bottom shadow
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+
 
 
     .navbar-brand {
@@ -62,7 +73,7 @@
         padding: 6px;
         border-radius: 12px;
         background-repeat: no-repeat;
-   
+
 
         &.scrolled {
             background-color: #fff !important;
@@ -84,7 +95,8 @@
         }
 
         .navbar-nav {
-gap: 20px;
+            gap: 20px;
+
             .navbar-brand,
             .nav-link {
                 color: #222;

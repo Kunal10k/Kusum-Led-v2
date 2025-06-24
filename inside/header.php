@@ -16,6 +16,9 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
 
     <!-- Swiper CSS CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -49,7 +52,7 @@
     <main>
 
         <!-- ======================== NAVBAR ======================== -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg sticky-header">
             <div class="container border-line ">
 
                 <!-- Logo Area -->
@@ -125,7 +128,7 @@
                                 </div>
                             </li> -->
 
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                                     Service
                                 </a>
@@ -134,9 +137,10 @@
                                     <li><a class="dropdown-item" href="#">Demo1</a></li>
                                     <li><a class="dropdown-item" href="#">Demo1</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
+                            <li class="nav-item"><a class="nav-link" href="service">Service</a></li>
 
-                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="product">Product</a></li>
 
 
@@ -153,9 +157,9 @@
                             </li> -->
 
 
-                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
                             <li class="nav-item mt-2 mt-lg-0 ms-lg-2">
-                                <a href="#" class="btn header_btn px-3">
+                                <a href="contact" class="btn header_btn px-3">
                                     Contact Us <i class="bi bi-arrow-right ms-2"></i>
                                 </a>
                             </li>
