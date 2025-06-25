@@ -27,7 +27,7 @@
                     Transform Your Home With the Modern Interior Design Tips
                 </h3>
 
-                <a href="#" class="blogReadmore">
+                <a href="blog-deatils-page" class="blogReadmore">
                     Read More <i class="bi bi-arrow-right"></i>
                 </a>
             </div>

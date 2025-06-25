@@ -11,18 +11,30 @@
     </div>
 </section>
 
-
-<section class="product-section_page">
-    <div class="container">
-        <div class="product-header">
-            <div class="left">
-                <p class="tagline">Product</p>
-                <h2>Our Product</h2>
+<section class="lamp-category-slider">
+    <div class="container position-relative">
+        <div class="owl-carousel lamp-carousel owl-theme">
+            <div class="lamp-item">
+                <img src="assets/img/img1.jpg" alt="Pendant" />
+                <a href="#">
+                    <p>Pendant <i class="bi bi-chevron-right"></i></p>
+                </a>
             </div>
-
+            <!-- More items -->
         </div>
 
-        <div class="product-grid ">
+
+    </div>
+</section>
+
+
+
+
+
+
+<section class="product_list">
+    <div class="container">
+        <div class="product_grid">
             <div class="product-card">
                 <div class="product-img">
                     <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d8f8ebeac97f65a3881386_Image-7.jpg"
@@ -32,27 +44,26 @@
                     <span>Interior</span> — <span>March 18, 2025</span>
                 </div>
                 <h3 class="product-title">
-                    Transform Your Home With the Modern Interior Design Tips
+                    <a href="#"> Transform Your Home With the Modern Interior Design Tips</a>
                 </h3>
 
-                <a href="#" class="productReadmore">
+                <a href="product-details-page" class="productReadmore">
                     Read More <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-
-            <div class="product-card">
+            <div class="product-card ">
                 <div class="product-img">
-                    <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d8f88444b92b674388c258_Image-6.jpg"
-                        alt="Blog 2">
+                    <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d8f8ebeac97f65a3881386_Image-7.jpg"
+                        alt="product 1">
                 </div>
                 <div class="product-meta">
-                    <span>Luxury</span> — <span>March 18, 2025</span>
+                    <span>Interior</span> — <span>March 18, 2025</span>
                 </div>
                 <h3 class="product-title">
-                    Luxury Living Redefined Elegant for the Modern Home
+                    <a href="#"> Transform Your Home With the Modern Interior Design Tips</a>
                 </h3>
 
-                <a href="#" class="productReadmore">
+                <a href="product-details-page" class="productReadmore">
                     Read More <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
@@ -65,18 +76,18 @@
                     <span>Interior</span> — <span>March 18, 2025</span>
                 </div>
                 <h3 class="product-title">
-                    Transform Your Home With the Modern Interior Design Tips
+                    <a href="#"> Transform Your Home With the Modern Interior Design Tips</a>
                 </h3>
 
                 <a href="#" class="productReadmore">
                     Read More <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-
-
         </div>
     </div>
 </section>
+
+
 
 
 

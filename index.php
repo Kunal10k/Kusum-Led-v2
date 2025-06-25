@@ -5,7 +5,7 @@
 <section class="hero-section">
     <div class="hero-slider">
         <div class="hero-slide active"
-            style="background-image: url('https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d6965e6d4c7e747edfe4ec_Hero%20Image.jpg');">
+            style="background-image: url('assets/img/view-light-lamp-with-futuristic-design_23-2151037591.jpg');">
             <div class="hero-content">
                 <h1>The Art of Stunning Interior Design</h1>
                 <p>Enhancing the interior of a home to create a functional, to create
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="hero-slide"
-            style="background-image: url('https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d79d0e612e79f3706539fb_Hero%20Image%202.jpg');">
+            style="background-image: url('assets/img/modern-cafe-interior-with-gray-brick-walls-wooden-table-comfortable-yellow-armchairs-near-round-tables-3d-rendering-mock-up_780608-24888.jpg');">
             <div class="hero-content">
                 <h1>Creative Spaces with Elegant Vibes</h1>
                 <p>Enhancing the interior of a home to create a functional,
@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="hero-slide"
-            style="background-image: url('https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d79d1d97e7471d07687e6f_Hero%20Image%203.jpg');">
+            style="background-image: url('assets/img/dining-room-with-painting-wall-that-says-word-restaurant_869042-376.webp');">
             <div class="hero-content">
                 <h1>Live Beautifully with Perfect Interiors</h1>
                 <p>Enhancing the interior of a home to create a functional, </p>
@@ -40,7 +40,7 @@
     <div class="container">
         <div class="who-sec">
             <div class="parallax-img parallax-left">
-                <img src="https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d7a125cf4e85df956ad642_WWA%20Left%20Image.jpg"
+                <img src="assets/img/view-futuristic-light-lamp-design_23-2151037587.jpg"
                     alt="Left Image">
             </div>
 
@@ -55,7 +55,7 @@
             </div>
 
             <div class="parallax-img parallax-right">
-                <img src="https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d7a1326152ca19c95593d6_WWA%20Right%20Image.jpg"
+                <img src="assets/img/view-futuristic-light-lamp-design_23-2151037631.jpg"
                     alt="Right Image">
             </div>
         </div>
@@ -77,7 +77,7 @@
                 <div class="service-block">
                     <div class="service-inner">
                         <div class="service-image">
-                            <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b53b7207d0228089287d_service%20secondary%20Image%20(1).jpg"
+                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037648.jpg"
                                 alt="Residential">
                         </div>
                         <div class="service-content">
@@ -93,7 +93,7 @@
                 <div class="service-block">
                     <div class="service-inner">
                         <div class="service-image">
-                            <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b4d5ac2e1b33425911c0_service%20secondary%20Image%20(6).jpg"
+                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037660.jpg"
                                 alt="Commercial">
                         </div>
                         <div class="service-content">
@@ -109,7 +109,7 @@
                 <div class="service-block">
                     <div class="service-inner">
                         <div class="service-image">
-                            <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b48b82fc54659981ca96_service%20secondary%20Image%20(5).jpg"
+                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037626.jpg"
                                 alt="Luxury">
                         </div>
                         <div class="service-content">
@@ -125,7 +125,7 @@
                 <div class="service-block">
                     <div class="service-inner">
                         <div class="service-image">
-                            <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b430ac2e1b33425883f3_service%20secondary%20Image%20(4).jpg"
+                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037601.jpg"
                                 alt="Sustainable">
                         </div>
                         <div class="service-content">
@@ -158,7 +158,7 @@
                 <div class="zoom-sticky-area">
                     <div class="zoom-item-box" id="zoom-box-left">
                         <a href="#">
-                            <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7c7c7c7aad9bad29ded87_Image-3.jpg"
+                            <img src="assets/img/en.jpg"
                                 class="zoom-image" alt="Luxury Skyline">
                         </a>
                         <div class="zoom-caption-block">
@@ -174,7 +174,7 @@
                 <div class="zoom-sticky-area">
                     <div class="zoom-item-box is-right" id="zoom-box-right">
                         <a href="#">
-                            <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7c78db4ad93ab4d2f5e24_Image-2.jpg"
+                            <img src="assets/img/poster-frame-living-room-mockup_345995-305.jpg"
                                 class="zoom-image" alt="Vintage Glamour">
                         </a>
                         <div class="zoom-caption-block">
@@ -396,6 +396,8 @@
 </section>
 
 
+
+
 <section class="blog-section">
     <div class="container">
         <div class="blog-header">
@@ -404,7 +406,7 @@
                 <h2>Our Latest Blog & Articles</h2>
             </div>
             <div class="right">
-                <a href="#" class="global-btn1 ">View All Articles →</a>
+                <a href="blog" class="global-btn1 ">View All Articles →</a>
             </div>
         </div>
 
@@ -421,7 +423,7 @@
                     Transform Your Home With the Modern Interior Design Tips
                 </h3>
 
-                <a href="#" class="blogReadmore">
+                <a href="blog" class="blogReadmore">
                     Read More <i class="bi bi-arrow-right"></i>
                 </a>
             </div>

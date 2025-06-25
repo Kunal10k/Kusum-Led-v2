@@ -5,7 +5,9 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+ <title>Kusum LED – Energy-Efficient LED Lights for Home, Office & Industry</title>
+<meta name="description" content="Discover premium LED lighting solutions with Kusum LED. From residential to industrial use, our eco-friendly, energy-saving LED products offer superior brightness, durability, and value.">
+
 
 
     <!-- Bootstrap Icons -->
@@ -52,14 +54,13 @@
     <main>
 
         <!-- ======================== NAVBAR ======================== -->
-        <nav class="navbar navbar-expand-lg sticky-header">
+        <nav class="navbar navbar-expand-lg  sticky-header">
             <div class="container border-line ">
 
                 <!-- Logo Area -->
                 <a class="navbar-brand" href="index">
-                    <img src="https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d67734759b60b1ff35eafc_Logo.svg"
-                        alt="" class="img-fluid logo logo-black d-none">
-                    <img src="https://cdn.prod.website-files.com/67d65e4a7a8964eda8d774b0/67d67734759b60b1ff35eafc_Logo.svg"
+                 
+                    <img src="assets/img/logo.png"
                         alt="" class="img-fluid logo logo-white">
                 </a>
 
@@ -169,3 +170,5 @@
                 </div>
             </div>
         </nav>
+
+       

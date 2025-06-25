@@ -56,7 +56,7 @@
 
         <!-- Copyright -->
         <div class="border-top pt-3 mt-4 text-center small text-muted">
-            © 2025 Kusum LED. Designed by Brandbes.
+            © 2025 Kusum LED. Designed by Esspesoft.
         </div>
     </div>
 </footer>
@@ -95,9 +95,7 @@
 <!-- Custom JavaScript -->
 <script src="assets/js/main.js"></script>
 
-<script>
-    AOS.init();
-</script>
+
 
 </body>
 
