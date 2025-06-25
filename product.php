@@ -15,7 +15,13 @@
     <div class="container position-relative">
         <div class="owl-carousel lamp-carousel owl-theme">
             <div class="lamp-item">
-                <img src="assets/img/img1.jpg" alt="Pendant" />
+                <img src="https://img.freepik.com/premium-photo/row-lights-hanging-from-ceiling-building_932169-24.jpg?w=996" alt="Pendant" />
+                <a href="#">
+                    <p>Pendant <i class="bi bi-chevron-right"></i></p>
+                </a>
+            </div>
+                 <div class="lamp-item">
+                <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d8f8ebeac97f65a3881386_Image-7.jpg" alt="Pendant" />
                 <a href="#">
                     <p>Pendant <i class="bi bi-chevron-right"></i></p>
                 </a>

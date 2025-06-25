@@ -40,8 +40,7 @@
     <div class="container">
         <div class="who-sec">
             <div class="parallax-img parallax-left">
-                <img src="assets/img/view-futuristic-light-lamp-design_23-2151037587.jpg"
-                    alt="Left Image">
+                <img src="assets/img/view-futuristic-light-lamp-design_23-2151037587.jpg" alt="Left Image">
             </div>
 
             <div class="content">
@@ -55,8 +54,7 @@
             </div>
 
             <div class="parallax-img parallax-right">
-                <img src="assets/img/view-futuristic-light-lamp-design_23-2151037631.jpg"
-                    alt="Right Image">
+                <img src="assets/img/view-futuristic-light-lamp-design_23-2151037631.jpg" alt="Right Image">
             </div>
         </div>
     </div>
@@ -64,130 +62,84 @@
 
 
 
-<section class="service">
+
+
+<section class="scroll-wrapper">
+
     <div class="container">
 
-        <div class="subheadline  "> WHO WE ARE</div>
-        <h2 class="main-title text-center " animate>
-            We Shape Interior Designs
-        </h2>
-        <div class="scroll-wrapper text-center">
-            <div class="container">
-                <!-- Section 1 -->
-                <div class="service-block">
-                    <div class="service-inner">
-                        <div class="service-image">
-                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037648.jpg"
-                                alt="Residential">
-                        </div>
-                        <div class="service-content">
-                            <div class="service-number">01</div>
-                            <h2>Residential Interior Design</h2>
-                            <p>Enhancing the interior of a home to create a functional, </p>
-                        </div>
-                    </div>
+
+
+        <!-- Section 1 -->
+        <div class="service-block">
+            <div class="service-inner">
+                <div class="service-image">
+                    <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b53b7207d0228089287d_service%20secondary%20Image%20(1).jpg"
+                        alt="Residential">
                 </div>
-                <div class="bor"></div>
-
-                <!-- Section 2 -->
-                <div class="service-block">
-                    <div class="service-inner">
-                        <div class="service-image">
-                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037660.jpg"
-                                alt="Commercial">
-                        </div>
-                        <div class="service-content">
-                            <div class="service-number">02</div>
-                            <h2>Commercial Interior Design</h2>
-                            <p>Residential Interior Design is the art & science of enhancing the interior of a
-                            </p>
-                        </div>
-                    </div>
+                <div class="service-content">
+                    <div class="service-number">01</div>
+                    <h2>Residential Interior Design</h2>
+                    <p>Enhancing the interior of a home to create a functional, personalized living space.</p>
                 </div>
-
-                <!-- Section 3 -->
-                <div class="service-block">
-                    <div class="service-inner">
-                        <div class="service-image">
-                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037626.jpg"
-                                alt="Luxury">
-                        </div>
-                        <div class="service-content">
-                            <div class="service-number">03</div>
-                            <h2>Luxury Interior Design</h2>
-                            <p>Residential Interior Design is the art & science of enhancing the interior of a
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Section 4 -->
-                <div class="service-block">
-                    <div class="service-inner">
-                        <div class="service-image">
-                            <img src="assets/img/view-light-lamp-with-futuristic-design_23-2151037601.jpg"
-                                alt="Sustainable">
-                        </div>
-                        <div class="service-content">
-                            <div class="service-number">04</div>
-                            <h2>Sustainable Interior Design</h2>
-                            <p>Residential Interior Design is the art & science of enhancing the interior of a
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Spacer -->
-                <div class="spacer"></div>
-
             </div>
-
         </div>
+        <div class="bor"></div>
+
+        <!-- Section 2 -->
+        <div class="service-block">
+            <div class="service-inner">
+                <div class="service-image">
+                    <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b4d5ac2e1b33425911c0_service%20secondary%20Image%20(6).jpg"
+                        alt="Commercial">
+                </div>
+                <div class="service-content">
+                    <div class="service-number">02</div>
+                    <h2>Commercial Interior Design</h2>
+                    <p>Designing and optimizing interior spaces for businesses and organizations.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="service-block">
+            <div class="service-inner">
+                <div class="service-image">
+                    <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b48b82fc54659981ca96_service%20secondary%20Image%20(5).jpg"
+                        alt="Luxury">
+                </div>
+                <div class="service-content">
+                    <div class="service-number">03</div>
+                    <h2>Luxury Interior Design</h2>
+                    <p>Creating opulent, sophisticated, and highly personalized spaces.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="service-block">
+            <div class="service-inner">
+                <div class="service-image">
+                    <img src="https://cdn.prod.website-files.com/67d7ac2a341ae87fc2734eea/67d7b430ac2e1b33425883f3_service%20secondary%20Image%20(4).jpg"
+                        alt="Sustainable">
+                </div>
+                <div class="service-content">
+                    <div class="service-number">04</div>
+                    <h2>Sustainable Interior Design</h2>
+                    <p>Focusing on environmentally responsible and resource-efficient interior solutions.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spacer -->
+        <div class="spacer"></div>
+
     </div>
+
 </section>
 
 
 
-<section class="zoom_effect_section">
-    <div class="subtitle  "> WHO WE ARE</div>
-    <div class="headline">Selected Projects</div>
-    <div class="container">
-        <div class="zoom-project-wrapper">
-            <!-- Left Zoom Section -->
-            <div class="zoom-scroll-section" id="zoom-section-left">
-                <div class="zoom-sticky-area">
-                    <div class="zoom-item-box" id="zoom-box-left">
-                        <a href="#">
-                            <img src="assets/img/en.jpg"
-                                class="zoom-image" alt="Luxury Skyline">
-                        </a>
-                        <div class="zoom-caption-block">
-                            <div class="zoom-title">Luxury Skyline</div>
-                            <div class="zoom-location">Miami, FL</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Zoom Section -->
-            <div class="zoom-scroll-section" id="zoom-section-right">
-                <div class="zoom-sticky-area">
-                    <div class="zoom-item-box is-right" id="zoom-box-right">
-                        <a href="#">
-                            <img src="assets/img/poster-frame-living-room-mockup_345995-305.jpg"
-                                class="zoom-image" alt="Vintage Glamour">
-                        </a>
-                        <div class="zoom-caption-block">
-                            <div class="zoom-title">Vintage Glamour</div>
-                            <div class="zoom-location">Portland, OR</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 
 
@@ -238,7 +190,52 @@
     </div>
 </section>
 
+<section class="zoom">
+    <div class="zoom_effect_section">
 
+        <div class="section-header">
+            <div class="subtitle mb-2 ">OUR SERVICES</div>
+            <h2 class="text-animate">Explore Our Services</h2>
+
+        </div>
+
+        <div class="container">
+            <div class="zoom-project-wrapper">
+                <!-- Left Zoom Section -->
+                <div class="zoom-scroll-section" id="zoom-section-left">
+                    <div class="zoom-sticky-area">
+                        <div class="zoom-item-box" id="zoom-box-left">
+                            <a href="#">
+                                <img src="https://img.freepik.com/free-photo/3d-rendering-modern-dining-room-living-room-with-retro-armchair-european-style_105762-2263.jpg?t=st=1750857776~exp=1750861376~hmac=b3cd29dae51a79b31c57976570ffd5d88cdf8aa332f4594b8c4688eec24ef979&w=1320" class="zoom-image" alt="Luxury Skyline">
+                            </a>
+                            <div class="zoom-caption-block">
+                                <div class="zoom-title">Luxury Skyline</div>
+                                <div class="zoom-location">Miami, FL</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Zoom Section -->
+                <div class="zoom-scroll-section" id="zoom-section-right">
+                    <div class="zoom-sticky-area">
+                        <div class="zoom-item-box is-right" id="zoom-box-right">
+                            <a href="#">
+                                <img src="https://img.freepik.com/free-photo/gray-sofa-brown-living-room-with-copy-space_43614-954.jpg?t=st=1750857977~exp=1750861577~hmac=5e5b9da2f46cd6ae89f0ec4784b6d24bd109f4ccbc8e9df25e19fccc0c90ab2f&w=1320" class="zoom-image" alt="Vintage Glamour">
+                            </a>
+                            <div class="zoom-caption-block">
+                                <div class="zoom-title">Vintage Glamour</div>
+                                <div class="zoom-location">Portland, OR</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
 
 <section class="approach-section">
     <div class="container">
@@ -310,7 +307,7 @@
         <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item">
                 <div class="image">
-                    <img src="assets/img/testi.jpg" alt="Customer" class="approach-image" />
+                    <img src="https://img.freepik.com/premium-photo/row-lights-hanging-from-ceiling-building_932169-24.jpg?w=996" alt="Customer" class="approach-image" />
                 </div>
                 <div class="content">
                     <div class="stars">★★★★★ <span>(5.0)</span></div>
